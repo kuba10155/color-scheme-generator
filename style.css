@@ -1,0 +1,79 @@
+body {
+  background: #1F2937;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  padding: 10px;
+  text-align: center;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.picker {
+  border: 0.5px solid #313131;
+  height: 34px;
+  padding: 0;
+  width: 51px;
+}
+
+.main {
+  align-items: stretch;
+  display: flex;
+  height: 520px;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  padding: 10px;
+  text-align: center;
+}
+
+.color {
+  width: 20%;
+}
+
+select {
+  background: none;
+  border-radius: 5%;
+  border: 1px solid gray;
+  color: gray;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  padding: 5px;
+  width: 312px;
+}
+
+select:focus > option:checked {
+    font-weight:bold !important;
+    color: white;
+}
+
+option {
+  background: #1F2937;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+}
+
+#get-btn {
+  background: #3D4B60;
+  border: none;
+  border-radius: 5%;
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 7px;
+}
